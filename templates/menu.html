@@ -1,0 +1,30 @@
+<ion-side-menus enable-menu-with-back-views="false" style="">
+  <ion-side-menu-content>
+    <ion-nav-bar class="bar-positive">
+      <ion-nav-back-button></ion-nav-back-button>
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left"></button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="side-menu21"></ion-nav-view>
+  </ion-side-menu-content>
+  <ion-side-menu side="left" id="side-menu21" style="background-color:#C70D0D;">
+    <ion-content padding="false" style="top:0px !important;" class="side-menu-left ">
+      <div>
+        <img src="img/1YA064YS0SJjzzJcHp00_images.jpg" style="display: block; width: 100%; height: auto; margin-left: auto; margin-right: auto;">
+      </div>
+      <h2 id="menu-heading2" style="color: rgb(249, 237, 237); font-weight: 300; text-align: center;">Skarletini</h2>
+      <div class="spacer" style="width: 251px; height: 25px;"></div>
+      <ion-list id="menu-list1">
+        <ion-item class="item-icon-left side-menu-item" id="menu-list-item1" ui-sref="menu.home()" menu-close="" active-page-highlight="" style="">
+          <i class="icon ion-ios-person-outline"></i>MyProfile
+          <ion-option-button class="button-positive">active-Page-Highlight</ion-option-button>
+        </ion-item>
+        <ion-item class="item-icon-left side-menu-item" id="menu-list-item2" ui-sref="menu.cart()" menu-close="" active-page-highlight="" style="">
+          <i class="icon ion-ios-camera-outline"></i>MyPhotos</ion-item>
+        <ion-item class="item-icon-left side-menu-item" id="menu-list-item3" ui-sref="menu.cloud()" menu-close="" active-page-highlight="" style="">
+          <i class="icon ion-ios-heart-outline"></i>MyFavorites</ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>
